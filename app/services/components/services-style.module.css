@@ -1,0 +1,185 @@
+/* General Reset */
+.body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fef6e4;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(to right, #774936, #a36449);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.navItem {
+    margin: 0 1rem;
+}
+
+.navLink {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+/* Heading */
+.heading {
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    color: #774936;
+}
+
+/* Services Section */
+.servicesContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.serviceCard {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.serviceImage {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.cardTitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #774936;
+}
+
+.cardDescription {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.serviceCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Pottery Section */
+.potteryContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.potterySection {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 45%;
+    text-align: center;
+}
+
+.potteryTitle {
+    color: #774936;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    background-color: #774936;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #a36449;
+}
+
+/* Order Form */
+.orderForm {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.orderFormLabel {
+    display: block;
+    margin: 0.8rem 0 0.3rem;
+    font-weight: bold;
+    color: #774936;
+}
+
+.orderFormInput,
+.orderFormTextarea,
+.orderFormSelect {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+.orderFormTextarea {
+    resize: none;
+}
+
+.orderFormInput[type="file"] {
+    padding: 0.5rem;
+}
+
+.orderFormBtn {
+    background-color: #774936;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.orderFormBtn:hover {
+    background-color: #a36449;
+}
